@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnlineApp.Pages.Category3"
+             Title="Category3">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <FlexLayout Wrap="Wrap">
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m1.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m2.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m3.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m4.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m5.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m6.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m7.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m8.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m9.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m10.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m11.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m12.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m13.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m14.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m15.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+
+                <Border FlexLayout.Basis="25%"
+            
+     StrokeShape="RoundRectangle 5"
+         StrokeThickness="0"
+         BackgroundColor="LightBlue"
+         Padding="10"
+         Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+           RowSpacing="5">
+                        <Image Grid.Row="0"
+                  Source="m16.jpg"
+            HeightRequest="150"
+            WidthRequest="130"/>
+                        <Label Grid.Row="1"
+            Text="Mens Wear"
+            HorizontalOptions="Center"
+                FontSize="20"/>
+                        <Grid Grid.Row="2"
+           ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                    Text="25,000"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                        HeightRequest="15"
+                        WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                            <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                        </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                     Text="View more"
+                      
+                     BackgroundColor="WhiteSmoke"
+                     TextColor="Black"
+                     CornerRadius="22"
+                     FontAttributes="Bold"
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Padding="25, 0"/>
+                    </Grid>
+                </Border>
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

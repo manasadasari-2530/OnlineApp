@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+xmlns:dataform="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnlineApp.MainPage"
+             Title="Login"
+             xmlns:local="clr-namespace:OnlineApp">
+
+    <ContentPage.BindingContext>
+        <local:DataViewModel>
+
+        </local:DataViewModel>
+    </ContentPage.BindingContext>
+
+    <!--<Grid ColumnDefinitions="500,500,500">
+        <Label Background="Green" Grid.Column="0"></Label>
+        <Label BackgroundColor="Black" Grid.Column="1"></Label>
+        <Label BackgroundColor="Blue" Grid.Column="2"></Label>
+        <Grid RowDefinitions="200,200,200,200" Grid.Column="1">
+            <Grid BackgroundColor="Violet" Grid.Row="0"></Grid>
+            <Grid BackgroundColor="red" Grid.Row="1"></Grid>
+            <Grid BackgroundColor="Purple" Grid.Row="2"></Grid>
+            <Grid BackgroundColor="Yellow" Grid.Row="3"></Grid>
+           
+    </Grid>
+
+
+    </Grid>-->
+    <Grid Margin="250,100,200,100" >
+        <Label Background="LightBlue" Grid.Column="0"/>
+
+        <Grid ColumnDefinitions="490"  >
+            <Image Source="ge1.png" />
+        </Grid>
+        <Grid Margin="650,0,100,330">
+
+            <dataform:SfDataForm x:Name="dataForm"
+                                 DataObject="{Binding DataModel}"
+                                  LayoutType="TextInputLayout"
+                           Grid.Row="1"
+                                  WidthRequest="100"
+                                  HeightRequest="100"/>
+        </Grid>
+        <Grid Margin="680,200,100,150">
+
+            <HorizontalStackLayout Grid.Row="1">
+                <CheckBox Color="{StaticResource Primary}"
+                          Margin="0,0,0,100"/>
+                <Label  Text="Remember me" 
+           FontSize="12"   
+                Margin="0,0,0,100"       
+           VerticalOptions="Center" />
+
+
+                <Label Text="Forgot password?"       
+                            TextColor="{StaticResource Primary}" 
+                            HorizontalTextAlignment="Center"
+                            Margin="80,33,400,20"   
+                            FontSize="12"/>
+
+            </HorizontalStackLayout>
+
+            <buttons:SfButton x:Name="sfButton" 
+                              Text="Login"
+                              Clicked="sfButton_Clicked"
+                              WidthRequest="150"
+                              HeightRequest="50"    
+                              FontAttributes="Bold"          
+                              Padding="10"
+                              HorizontalOptions="Center"                                                                
+                              Grid.Row="2"                                                             
+                              Background="Blue"/>
+
+            <HorizontalStackLayout Grid.Row="3" Margin="0,150,0,0"              
+                        HorizontalOptions="Center">
+                <Label Text="Don't have an account?  " />
+                <Label Text="Register" 
+               TextDecorations="Underline"
+               TextColor="{StaticResource Primary}" />
+
+                <HorizontalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" >
+                    </TapGestureRecognizer>
+                </HorizontalStackLayout.GestureRecognizers>
+            </HorizontalStackLayout>
+
+        </Grid>
+
+    </Grid>
+
+
+
+</ContentPage>

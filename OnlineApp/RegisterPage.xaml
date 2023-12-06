@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
+xmlns:dataform="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnlineApp.RegisterPage"
+             Title="RegisterPage"
+             xmlns:local="clr-namespace:OnlineApp">
+
+    <ContentPage.BindingContext>
+        <local:RegisterViewModel>
+        </local:RegisterViewModel>
+    </ContentPage.BindingContext>
+
+    <Grid Margin="250,10,200,0" >
+        <Label Background="LightBlue" Grid.Column="0"/>
+
+        <Grid ColumnDefinitions="490"  >
+            <Image Source="ge1.png" />
+        </Grid>
+        <Grid Margin="650,0,100,0">
+            <dataform:SfDataForm x:Name="dataForm"
+                                 DataObject="{Binding RegisterModel}"
+                                 LayoutType="TextInputLayout"
+                                 Grid.Row="0"
+                            
+                                 WidthRequest="300"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="End"/>
+
+            <Grid Margin="0,600,100,0">
+            
+            <buttons:SfButton x:Name="sfButton" 
+                              Text="Register"
+                              Clicked="sfButton_Clicked"
+                           WidthRequest="150"
+                           HeightRequest="50"    
+                           FontAttributes="Bold"          
+                           Padding="10"
+                           HorizontalOptions="Center"                                                                
+                           Grid.Row="2"                                                             
+                           Background="Blue"/>
+
+                <HorizontalStackLayout Grid.Row="3" Margin="0,98,0,0"            
+                 HorizontalOptions="Center">
+                    <Label Text="Already had an account?  " />
+                    <Label Text="Login" TextDecorations="Underline" TextColor="{StaticResource Primary}" />
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" >
+                        </TapGestureRecognizer>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

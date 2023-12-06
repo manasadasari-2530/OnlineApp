@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:picker="clr-namespace:Syncfusion.Maui.Picker;assembly=Syncfusion.Maui.Picker"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnlineApp.Pages.HomePage">
+
+    <ContentPage.MenuBarItems >
+        <MenuBarItem Text="Electronics" >
+            <MenuFlyoutItem Text="Tv" Clicked="MenuFlyoutItem_Clicked" />
+            <MenuFlyoutItem Text="Phones"/>
+            <MenuFlyoutItem Text="WashingMachines"/>
+            <MenuFlyoutItem Text="AirConditioners"/>
+            <MenuFlyoutItem Text="AirPods"/>
+            <MenuFlyoutItem Text="Bluetooth"/>
+            <MenuFlyoutItem Text="Fridges" Clicked="MenuFlyoutItem_Clicked_6"/>
+            <MenuFlyoutItem Text="SoundSystems"/>
+
+        </MenuBarItem>
+        <MenuBarItem Text="Groceries">
+            <MenuFlyoutItem Text="Fruits" Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="Vegetables"  Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="Oils" Clicked="MenuFlyoutItem_Clicked_2" />
+
+            <MenuFlyoutItem Text="Surfexcel" Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="MilkProducts" Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="Shampoes" Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="Bread" Clicked="MenuFlyoutItem_Clicked_2"/>
+            <MenuFlyoutItem Text="Meat" Clicked="MenuFlyoutItem_Clicked_2"/>
+        </MenuBarItem>
+         
+     <MenuBarItem Text="Men">
+     <MenuFlyoutItem Text="Shirts" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Pants" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="T-shirts" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Kurtas" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Trench Coats" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Trousers" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Jackets" Clicked="MenuFlyoutItem_Clicked_3"/>
+            <MenuFlyoutItem Text="Cargo Pants" Clicked="MenuFlyoutItem_Clicked_3"/>
+        </MenuBarItem>
+
+
+        <MenuBarItem Text="Women">
+            <MenuFlyoutItem Text="Frocks" Clicked="MenuFlyoutItem_Clicked_4"/>
+            <MenuFlyoutItem Text="Half Sarees"/>
+            <MenuFlyoutItem Text="Sarees"/>
+            <MenuFlyoutItem Text="Floral Tops"/>
+            <MenuFlyoutItem Text="Jeans"/>
+            <MenuFlyoutItem Text="Shirts"/>
+            <MenuFlyoutItem Text="Lehengas"/>
+            <MenuFlyoutItem Text="Pyjamas"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="KidsToys">
+            <MenuFlyoutItem Text="Teddy bear" Clicked="MenuFlyoutItem_Clicked_5"/>
+            <MenuFlyoutItem Text="Ballons"/>
+            <MenuFlyoutItem Text="Barbie"/>
+            <MenuFlyoutItem Text="Skirts"/>
+            <MenuFlyoutItem Text="Short Shirts"/>
+            <MenuFlyoutItem Text="Shoes"/>
+            <MenuFlyoutItem Text="BatBoll"/>
+            <MenuFlyoutItem Text="Johnsons"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="FootWear">
+            <MenuFlyoutItem Text="Sandals" Clicked="MenuFlyoutItem_Clicked_5"/>
+            <MenuFlyoutItem Text="Sneakers"/>
+            <MenuFlyoutItem Text="Brogue Shoes"/>
+            <MenuFlyoutItem Text="Boats"/>
+            <MenuFlyoutItem Text="Loafer"/>
+            <MenuFlyoutItem Text="Shoes"/>
+            <MenuFlyoutItem Text="Flipflops"/>
+            <MenuFlyoutItem Text="Heels"/>
+        </MenuBarItem>
+
+
+        <MenuBarItem Text="Furnitures">
+            <MenuFlyoutItem Text="Wood" Clicked="MenuFlyoutItem_Clicked_5"/>
+            <MenuFlyoutItem Text="Tables"/>
+            <MenuFlyoutItem Text="Chairs"/>
+            <MenuFlyoutItem Text="Beds"/>
+            <MenuFlyoutItem Text="Mattress"/>
+            <MenuFlyoutItem Text="Stools"/>
+            <MenuFlyoutItem Text="Dyning Sets"/>
+            <MenuFlyoutItem Text="Desks"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="Sports">
+            <MenuFlyoutItem Text="Shuttlecock" Clicked="MenuFlyoutItem_Clicked_5"/>
+            <MenuFlyoutItem Text="Hockey Stick"/>
+            <MenuFlyoutItem Text="Cricket Bats"/>
+            <MenuFlyoutItem Text="Jersey"/>
+            <MenuFlyoutItem Text="FootBallHelmets"/>
+            <MenuFlyoutItem Text="Wickets"/>
+            <MenuFlyoutItem Text="Fishing Rods"/>
+            <MenuFlyoutItem Text="Balls"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="More">
+            <MenuFlyoutItem Text="Download App" Clicked="MenuFlyoutItem_Clicked_5"/>
+            <MenuFlyoutItem Text="24*7 Customer Care"/>
+
+        </MenuBarItem>
+
+    </ContentPage.MenuBarItems>
+
+    <!--<Border StrokeShape="RoundRectangle 22"
+      StrokeThickness="2"
+      Stroke="Goldenrod">
+        <Label Text="Search here..."
+         TextColor="Black"
+         Padding="10, 14"/>-->
+
+            <!--<StackLayout Spacing="10" Padding="10">
+        <Label Text="Explore Our Wide Selection of Products" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />-->
+        <!--<StackLayout Orientation="Horizontal" Spacing="100" Margin="0,30,0,0">
+            <Label Text="Home"  TextColor="Black" />
+            <Label Text="Electronics" TextColor="Black"/>
+            <Label Text="Groceries" TextColor="Black"  />
+            <Label Text="Men" TextColor="Black" />
+            <Label Text="Women" TextColor="Black" />
+            <Label Text="Kids" TextColor="Black"/>
+            <Label Text="Footwear" TextColor="Black" />
+            <Label Text="Furnitures" TextColor="Black" />
+            <Label Text="Sports" TextColor="Black" />
+            <Label Text="More" TextColor="Black" />
+
+        </StackLayout>-->
+    <!--</StackLayout>-->
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <FlexLayout Wrap="Wrap">
+
+                <Border FlexLayout.Basis="25%"
+                     
+              StrokeShape="RoundRectangle 5"
+                  StrokeThickness="0"
+                  BackgroundColor="LightBlue"
+                  Padding="10"
+                  Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+                    RowSpacing="5">
+                        <Image Grid.Row="0"
+                           Source="f1.jpg"
+                     HeightRequest="150"
+                     WidthRequest="130"/>
+                        <Label Grid.Row="1"
+                     Text="Fridge"
+                     HorizontalOptions="Center"
+                         FontSize="20"/>
+                        <Grid Grid.Row="2"
+                    ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+                             Text="25,000"
+                             VerticalOptions="Center"
+                             FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                                    HorizontalOptions="End"
+                                                    Spacing="2"
+                                                    VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                                 HeightRequest="15"
+                                 WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                                     <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                                 </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                              Text="View more"
+                                Clicked="Button_Clicked"
+                              BackgroundColor="WhiteSmoke"
+                              TextColor="Black"
+                              CornerRadius="22"
+                              FontAttributes="Bold"
+                              VerticalOptions="End"
+                              HorizontalOptions="Center"
+                              Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="groceries.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Groceries"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_1"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="men.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Mens Wear"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_2"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="Women.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Women Wear"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_3"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="toys.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Toys"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_4"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="shoes.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Shoes"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_5"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="furniture.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Furniture"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_6"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="Sportsall.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Sports"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_7"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="sli.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Slippers"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_8"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="furniture2.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Furniture"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_9"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="boysshoes.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Boys Shoes"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_10"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="girlsheels.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Heels"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_11"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+
+                <Border FlexLayout.Basis="25%"
+       
+StrokeShape="RoundRectangle 5"
+    StrokeThickness="0"
+    BackgroundColor="LightBlue"
+    Padding="10"
+    Margin="2">
+                    <Grid RowDefinitions="150, Auto, auto, Auto"
+      RowSpacing="5">
+                        <Image Grid.Row="0"
+             Source="sportsbat.jpg"
+       HeightRequest="150"
+       WidthRequest="130"/>
+                        <Label Grid.Row="1"
+       Text="Sports"
+       HorizontalOptions="Center"
+           FontSize="20"/>
+                        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *">
+                            <Label Grid.Column="0"
+               Text="25,000"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            <HorizontalStackLayout        Grid.Column="1"
+                                      HorizontalOptions="End"
+                                      Spacing="2"
+                                      VerticalOptions="Center">
+
+                                <Label Text="4.3"/>
+                                <Image Source="star.png"
+                   HeightRequest="15"
+                   WidthRequest="15">
+                                    <!--<Image.Behaviors>
+                       <toolkit:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                   </Image.Behaviors>-->
+                                </Image>
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                        <Button Grid.Row="3"
+                Text="View more"
+                                Clicked="Button_Clicked_12"
+                BackgroundColor="WhiteSmoke"
+                TextColor="Black"
+                CornerRadius="22"
+                FontAttributes="Bold"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Padding="25, 0"/>
+                    </Grid>
+                </Border>
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>
